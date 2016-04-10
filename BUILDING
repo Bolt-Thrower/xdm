@@ -1,0 +1,18 @@
+Building XDM
+============
+
+This project uses ant as the build system. In Ubuntu,
+you can install ant by typing:
+     
+     sudo apt install ant
+
+Once installed, build the source by typing
+
+     ant jar
+
+Build output will be located in build/jar, which you can
+run using:
+     
+     cd build/jar
+     java -jar XDM.jar
+

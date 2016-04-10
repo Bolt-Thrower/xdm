@@ -1,0 +1,12 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "minimum_chrome_version": "14.0",
+   "description": "XDM Helper",
+   "homepage_url": "http://sourceforge.net/projects/xdman",
+   "manifest_version": 2,
+   "name": "XDM Helper",
+   "permissions": [ "\u003Call_urls>","tabs", "proxy", "contextMenus", "webRequest", "webRequestBlocking", "downloads", "storage" ],
+   "version": "1.0"
+}
