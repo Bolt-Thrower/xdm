@@ -28,7 +28,7 @@ public class AboutDialog extends JDialog {
 
    void init() {
       this.setUndecorated(true);
-      this.setSize(350, 300);
+      this.setSize(350, 280);
       this.getContentPane().setLayout((LayoutManager)null);
       this.bgColor = new Color(73, 73, 73);
       this.getContentPane().setBackground(this.bgColor);
@@ -50,7 +50,7 @@ public class AboutDialog extends JDialog {
       iconLbl.setBounds(32, 95, 70, 70);
       this.add(iconLbl);
       JTextArea txtInfo = new JTextArea("6.0.00\nBuilt on Sunday 6 March 2016\nCopyright (C) 2015\nSubhra Das Gupta\nCopyright (C) 2016\nSeedo Eldho Paul");
-      txtInfo.setBounds(114, 100, 201, 80);
+      txtInfo.setBounds(114, 100, 201, 90);
       txtInfo.setEditable(false);
       txtInfo.setBackground(this.bgColor);
       txtInfo.setForeground(Color.WHITE);
